@@ -58,7 +58,7 @@ class wordGame:
                 print("Brava! You have guessed the word completely!")
                 break
 
-file_name = 'C:/Users/User/Desktop/coding/wordss.txt'
+file_name = 'wordss.txt'
 in_file = open(file_name,)
 word_list = in_file.readline().split() 
 word = random.choice(word_list)
